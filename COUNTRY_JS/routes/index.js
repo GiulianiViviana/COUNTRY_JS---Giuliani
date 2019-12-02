@@ -17,7 +17,7 @@ router.get('/pages/:state/', function(req, res, next){
  }
  else
  {
-   res.render('state', {state: country.info(req.params.state)}) ; //Rendiamo lo stato un parametro
+   res.render('state', {state: country.info(req.params.state)}) ; 
  }
 })
 
